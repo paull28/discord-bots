@@ -1,0 +1,15 @@
+# Dadjoke
+GET https://icanhazdadjoke.com/ HTTP/1.1
+content-type: application/json
+
+# Meme
+GET https://meme-api.com/gimme HTTP/1.1
+content-type: application/json
+
+# Quote
+GET https://api.quotable.io/random HTTP/1.1
+content-type: application/json
+
+# Cat
+GET https://api.thecatapi.com/v1/images/search HTTP/1.1
+content-type: application/json
