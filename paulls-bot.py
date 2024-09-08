@@ -96,12 +96,6 @@ async def on_message(message):
     elif message.content == ";cat":
         cat = get_cat()
         await message.channel.send(cat)
-
-
-    
-
         
-
-
 # Run the bot with the token
 client.run(os.getenv("SECRET_TOKEN"))
