@@ -79,7 +79,7 @@ async def on_message(message):
 
     # Check if message aligns with command/feature
     if message.content == ";help":
-        commands = """Try out these commands...\n>>> **;cat** - Get a picture of a cat\n**;dadjoke** - Make a "dad joke"\n**;help** - Get help (this message)\n**;meme** - Get a meme\n**;quote** - Get a quote"""
+        commands = """**`;cat`** - Get a random picture of a cat via third party API\n**`;dadjoke`** - Get a "dad joke" via third party API\n**`;help`** - Show this very list of commands\n**`;meme`** - Get a random meme via third party API\n**`;quote`** - Get a random quote via third party API"""
         await message.channel.send(commands)
     elif message.content == ";dadjoke":
         joke = get_dad_joke()
