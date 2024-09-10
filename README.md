@@ -8,6 +8,8 @@ Commands for the bot use the prefix `;` and are as follows:
 4. **`;meme`** - Get a random meme via third party API
 5. **`;quote`** - Get a random quote via third party API
 
+<img src="https://github.com/paull28/discord-bots/blob/master/example.gif?raw=true" width="400" alt="Example GIF" />
+
 ## Set up:
 1. Create a new application on the Discord Developer Portal
 2. Generate a bot token, and store this in a file named `.env` as follows:
